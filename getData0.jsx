@@ -1,6 +1,6 @@
-function App() {
-  return <h1>Hello!</h1>;
-}
+const App = () => {
+  return <button onClick={() => alert("hello")}>Hello!</button>;
+};
 
 //---------------
 ReactDOM.render(<App />, document.getElementById("root"));
